@@ -5,10 +5,8 @@ The data comes from the [KFV - Kuratorium für Verkehrssicherheit](https://www.k
 
 ## Instructions
 
-This has been made with Python 3.12.2
-
-1. Install these packages `pip install dash pandas plotly requests`
-2. To start run `py .\main.py`
+1. Install packages `npm i`
+2. To start run `npm run dev`
 
 ## Preview
 
