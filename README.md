@@ -1,39 +1,15 @@
-# kfv
+# Introduction
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a small project to showcase creating a area chart about the casualties in austrian traffic.  
+The data comes from the [KFV - Kuratorium für Verkehrssicherheit](https://www.kfv.at/)
 
-## Recommended IDE Setup
+## Instructions
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+This has been made with Python 3.12.2
 
-## Type Support for `.vue` Imports in TS
+1. Install these packages `pip install dash pandas plotly requests`
+2. To start run `py .\main.py`
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Preview
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+![image](https://github.com/user-attachments/assets/6c3c37d2-dc83-4323-b63f-fb906f0c5cf8)
